@@ -1,10 +1,14 @@
+drop database pwci_c1;
+create database pwci_c1;
+
+use pwci_c1;
+
 create table users
 (
     id       int auto_increment
         primary key,
-    name     varchar(50)  null,
-    username varchar(20)  not null,
-    email    varchar(100) not null
+    email    varchar(100) not null,
+    password varchar(255) not null
 );
 
 create table notas

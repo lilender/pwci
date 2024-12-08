@@ -4,7 +4,7 @@ return [
     "database" => [
         "host" => "localhost",
         "user" => "root",
-        "password" => "12345",
+        "password" => "",
         "dbname" => "pwci_c1",
         "port" => "3306",
     ],
